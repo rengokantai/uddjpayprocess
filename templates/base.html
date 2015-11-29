@@ -11,5 +11,9 @@
 {% endblock %}
 {% block two %}
 {% endblock %}
+{% url 'contact' as contact %}
+{% url 'about' as about %}
+<a href="{% url 'contact' %}">contact</a>
+<a href="{% url 'about' %}">about</a>
 </body>
 </html>
