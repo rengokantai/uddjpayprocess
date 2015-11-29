@@ -53,6 +53,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'pay',
     'contact',
+    'crispy_forms',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -123,7 +124,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static-only',)
 
 
 
-
+CRISPY_TEMPLATE_PACK = 'uni_form'
 
 
 
