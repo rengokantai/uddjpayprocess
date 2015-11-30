@@ -23,6 +23,7 @@ urlpatterns = [
     url(r'^$', 'pay.views.home', name='home'),
     url(r'^about/$', 'pay.views.about', name='about'),
     url(r'^contact/$', 'contact.views.contact', name='contact'),
+    url(r'^profile/$', 'pay.views.profile', name='profile'),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^accounts/', include(urls)),
 ]
