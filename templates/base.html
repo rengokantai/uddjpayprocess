@@ -15,5 +15,8 @@
 {% url 'about' as about %}
 <a href="{% url 'contact' %}">contact</a>
 <a href="{% url 'about' %}">about</a>
+<script type="text/javascript" src="https://js.stripe.com/v2/"></script>
+{% block script %}
+{% endblock %}
 </body>
 </html>

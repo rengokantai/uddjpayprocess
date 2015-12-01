@@ -24,6 +24,7 @@ urlpatterns = [
     url(r'^about/$', 'pay.views.about', name='about'),
     url(r'^contact/$', 'contact.views.contact', name='contact'),
     url(r'^profile/$', 'pay.views.profile', name='profile'),
+    url(r'^checkout/$', 'checkout.views.checkout', name='checkout'),
     url(r'^admin/', include(admin.site.urls)),
     url(r'^accounts/', include(urls)),
 ]
